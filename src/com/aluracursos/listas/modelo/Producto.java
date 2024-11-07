@@ -22,6 +22,6 @@ public class Producto {
 
     @Override
     public String toString() {
-        return "  "+ this.nombre +":"+ this.precio ;
+        return "  "+ this.nombre +"----->"+ this.precio ;
     }
 }
